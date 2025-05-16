@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 3rem; /* Taille du texte augmentée (tu peux ajuster cette valeur) */
+    font-weight: bold; /* Pour rendre le texte plus épais */
+}
+
+nav {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+}
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column; /* Aligne les éléments verticalement */
+    align-items: center; /* Centrer les éléments horizontalement */
+    margin-top: 10px; /* Espace entre le nom et le conteneur */
+}
+
+.title-container {
+    display: flex; /* Utilise le modèle de boîte flexible */
+    align-items: center; /* Centre les éléments verticalement */
+    gap: 500px; /* Ajoute un espace entre les images */
+    justify-content: center; /* Aligne le conteneur à droite */
+}
+
+.image-container {
+    display: flex; /* Utilise le modèle de boîte flexible */
+    align-items: center; /* Centre les éléments verticalement */
+    gap: 10px; /* Ajoute un espace entre les images */
+    justify-content: flex-end; /* Aligne le conteneur à droite */
+    margin-right: 250px; /* Ajoute une marge à droite pour éviter que le conteneur ne touche le bord de la page */
+}
+
+.profile-pic {
+    width: 200px; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Conserve les proportions de l'image */
+}
+
+.inria-logo {
+    width: 200px; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Conserve les proportions du logo */
+}
